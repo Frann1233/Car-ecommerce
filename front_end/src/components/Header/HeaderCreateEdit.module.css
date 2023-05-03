@@ -1,0 +1,18 @@
+.buttonsCreateEdit {
+  display: flex;
+  gap: var(--small-padding);
+}
+
+/* For Tablets or iPad: 480px - 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .buttonsCreateEdit {
+    margin-top: var(--small-padding);
+  }
+}
+
+/* For Laptop or small-size screen: 768px - 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .buttonsCreateEdit {
+    margin-top: var(--small-padding);
+  }
+}

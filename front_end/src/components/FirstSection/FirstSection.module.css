@@ -1,0 +1,32 @@
+.firstSection{
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--medium-padding);
+  margin-bottom: var(--medium-padding);
+}
+
+.showCase{
+  width: 1000px;
+  height: 330px;
+}
+
+/* For Mobile devices: 280px-480px */
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .showCase {
+    height: fit-content;
+  }
+}
+
+/* For Mobile devices: 320px-480px */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .showCase {
+    height: fit-content;
+  }
+}
+
+/* For Tablets or iPad: 480px - 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .showCase {
+    height: fit-content;
+  }
+}

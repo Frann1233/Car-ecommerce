@@ -1,0 +1,56 @@
+.vehicleInputs {
+  display: flex;
+  width: 45%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--small-padding);
+}
+
+.vehicleInputs input {
+  width: 100%;
+  height: var(--big-padding);
+  border-radius: var(--border-radius);
+}
+
+input {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+select {
+  width: 10rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border-radius: var(--border-radius);
+}
+
+/* For Mobile devices: 280px-480px */
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .vehicleInputs {
+    margin-bottom: var(--small-padding);
+  }
+}
+
+/* For Mobile devices: 320px-480px */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .vehicleInputs {
+    margin-bottom: var(--small-padding);
+  }
+}
+
+/* For Tablets or iPad: 480px - 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .vehicleInputs {
+    margin-bottom: var(--small-padding);
+  }
+}
+
+/* For Laptop or small-size screen: 768px - 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .vehicleInputs {
+    margin-bottom: var(--small-padding);
+  }
+}
+

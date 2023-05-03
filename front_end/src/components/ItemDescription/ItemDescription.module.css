@@ -1,0 +1,65 @@
+.itemImage {
+  width: fit-content;
+  padding-right: var(--medium-padding);
+}
+
+.itemImage img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: var(--border-radius);
+}
+
+.vehicleDescription{
+  display: flex;
+  flex-direction: column;
+  padding-right: var(--medium-padding);
+  gap: var(--small-padding);
+}
+
+.vehicleItemDescription {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--xl-padding);
+}
+
+/* For Mobile devices: 280px-480px */
+@media screen and (min-width: 280px) and (max-width: 320px) {
+  .itemImage {
+    width: 100%;
+    height: 200px;
+    padding-right: 0;
+  }
+
+  .vehicleDescription {
+    padding-top: var(--big-padding);
+    padding-right: 0;
+  }
+}
+
+/* For Mobile devices: 320px-480px */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .itemImage {
+    width: 100%;
+    height: 200px;
+  }
+  .vehicleDescription {
+    padding-top: var(--big-padding);
+    padding-right: 0;
+  }
+}
+
+/* For Tablets or iPad: 480px - 768px */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .itemImage {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* For Laptop or small-size screen: 768px - 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .itemImage {
+    width: 100%;
+    height: 200px;
+  }
+}

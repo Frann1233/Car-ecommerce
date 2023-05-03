@@ -1,0 +1,41 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  --small-padding: 1rem;
+  --medium-padding: 2rem;
+  --big-padding: 3rem;
+  --xl-padding: 4rem;
+  --xxl-padding: 5rem;
+  --border-radius: 25px;
+  --border-radius-circle: 100%;
+  --color--background: #2d2a2a;
+  --color-foreground: #5a5e69;
+  --color-foreground-lighter: #d9d9d9;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-button: #d6b91c;
+  --color-button-hover: #fad305;
+  --border-radius-main: 25px;
+  --border-radius-secondary: 15px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
